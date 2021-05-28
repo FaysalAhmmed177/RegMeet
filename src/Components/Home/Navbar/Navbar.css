@@ -1,0 +1,24 @@
+.nav {
+    margin-left: 10%;
+}
+
+.navOptions {
+    cursor: pointer;
+    transition: .3s all ease-out;
+}
+
+.navOptions:hover {
+    background-color: black;
+}
+
+.search {
+    height: 30px;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+}
+
+.searchIcon {
+    height: 30px;
+}
