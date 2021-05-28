@@ -9,28 +9,37 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "./Navbar.css";
 import profileImage from "../../../Images/profile-image.jpg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="bg-white p-5 d-flex align-center">
+    <nav className="bg-white d-flex align-center fixed">
       <h3 className="ml-10 text-cornBlue roboto">RegMeet</h3>
       <div className="nav d-flex w-20 justify-evenly">
-        <FontAwesomeIcon
-          className="shadow-5 navOptions bg-cornBlue text-white p-5 br-5"
-          icon={faHome}
-        />
-        <FontAwesomeIcon
-          className="shadow-5 navOptions bg-cornBlue text-white p-5 br-5"
-          icon={faUsers}
-        />
-        <FontAwesomeIcon
-          className="shadow-5 navOptions bg-cornBlue text-white p-5 br-5"
-          icon={faBell}
-        />
-        <FontAwesomeIcon
-          className="shadow-5 navOptions bg-cornBlue text-white p-5 br-5"
-          icon={faEnvelope}
-        />
+        <Link to="/">
+          <FontAwesomeIcon
+            className="shadow-5 navOptions bg-cornBlue text-white p-5 br-5"
+            icon={faHome}
+          />
+        </Link>
+        <Link to="/friends">
+          <FontAwesomeIcon
+            className="shadow-5 navOptions bg-cornBlue text-white p-5 br-5"
+            icon={faUsers}
+          />
+        </Link>
+        <Link to="/notifications">
+          <FontAwesomeIcon
+            className="shadow-5 navOptions bg-cornBlue text-white p-5 br-5"
+            icon={faBell}
+          />
+        </Link>
+        <Link to="/messages">
+          <FontAwesomeIcon
+            className="shadow-5 navOptions bg-cornBlue text-white p-5 br-5"
+            icon={faEnvelope}
+          />
+        </Link>
       </div>
       <div className="w-30 ml-10 d-flex justify-center align-center">
         <input
