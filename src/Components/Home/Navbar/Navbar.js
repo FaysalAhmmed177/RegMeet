@@ -13,9 +13,9 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="bg-white d-flex align-center fixed">
+    <nav className="d-flex align-center sticky nav bg-white">
       <h3 className="ml-10 text-cornBlue roboto">RegMeet</h3>
-      <div className="nav d-flex w-20 justify-evenly">
+      <div className="ml-10 d-flex w-15 justify-evenly">
         <Link to="/">
           <FontAwesomeIcon
             className="shadow-5 navOptions bg-cornBlue text-white p-5 br-5"

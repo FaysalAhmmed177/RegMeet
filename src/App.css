@@ -157,9 +157,13 @@
     border-radius: 100%;
 }
 
-.fixed {
+.sticky {
     position: sticky;
     top: 0;
     right: 0%;
     left: 0%;
+}
+
+.w-15 {
+    width: 15%;
 }
