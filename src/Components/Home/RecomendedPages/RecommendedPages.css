@@ -1,0 +1,7 @@
+.recommendedPage {
+    width: 350px;
+}
+
+.pages:hover {
+    background-color: rgb(172, 198, 247);
+}

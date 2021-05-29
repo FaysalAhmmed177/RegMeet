@@ -1,11 +1,12 @@
 import React from "react";
+import RecommendedPages from "../RecomendedPages/RecommendedPages";
 import "./Home.css";
 
 const Home = () => {
   return (
-    <div>
-      <h1>This is home</h1>
-    </div>
+    <section className="p-20">
+      <RecommendedPages />
+    </section>
   );
 };
 
