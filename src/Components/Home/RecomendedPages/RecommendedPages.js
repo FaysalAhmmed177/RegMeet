@@ -43,7 +43,7 @@ const recommended = [
 
 const RecommendedPages = () => {
   return (
-    <section className="recommendedPage bg-white br-5">
+    <section className="sticky recommendedPage bg-white br-5">
       <div className="d-flex align-center justify-evenly">
         <h1 className="text-gray condensed">Recommended Pages</h1>
         <FontAwesomeIcon
@@ -53,7 +53,7 @@ const RecommendedPages = () => {
       </div>
       {recommended.map((item) => (
         <div
-          className="d-flex tbr-gray p-5 align-center justify-evenly pages"
+          className="d-flex tbr-gray p-5 align-center justify-evenly pages roboto"
           key={item.title}
         >
           <div className="w-10">
@@ -69,7 +69,7 @@ const RecommendedPages = () => {
           </div>
           <div className="w-40 text-center">
             <p>
-              <span className="text-cornBlue">{item.followers}</span> followers
+              <span className="text-cornBlue">{item.followers}</span> Followers
             </p>
           </div>
         </div>

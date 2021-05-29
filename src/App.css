@@ -148,6 +148,14 @@
     border-radius: 100%;
 }
 
+.text-yellow {
+    color: rgb(108, 108, 88);
+}
+
+.bg-gray {
+    background-color: rgb(221, 218, 218);
+}
+
 .tbr-gray {
     border-top: rgb(208, 206, 206) 1px solid;
 }
@@ -156,9 +164,29 @@
     text-align: center;
 }
 
+.h-20 {
+    height: 20px;
+}
+
+.h-25 {
+    height: 25px;
+}
+
+.text-green {
+    color: rgb(45, 204, 45);
+}
+
+.br-none {
+    border: none;
+}
+
 .pbl-5 {
     position: relative;
     bottom: 5px;
+}
+
+.mr-10 {
+    margin: 10px;
 }
 
 .ptl-5 {
@@ -191,6 +219,10 @@
 .roundImage {
     width: 40px;
     border-radius: 100%;
+}
+
+.br-gray {
+    border: 1px solid rgb(220, 218, 218);
 }
 
 .sticky {

@@ -1,0 +1,12 @@
+.textArea {
+    height: 80px;
+    width: 85%;
+}
+
+.publishBtn {
+    box-shadow: inset 1px 1px 5px rgba(132, 131, 131, 0.3);
+}
+
+.publishBtn:hover {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .4);
+}
