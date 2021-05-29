@@ -33,7 +33,7 @@ const PublishFeed = () => {
           </div>
           <div className="d-flex align-center">
             <FontAwesomeIcon
-              className="shadow-5 h-25 p-10 br-10 pointer"
+              className="shadow-5 h-25 p-10 br-10 pointer text-gray"
               icon={faEllipsisH}
             />
           </div>

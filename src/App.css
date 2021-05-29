@@ -160,6 +160,14 @@
     border-top: rgb(208, 206, 206) 1px solid;
 }
 
+.mt-20 {
+    margin-top: 20px;
+}
+
+.center {
+    margin: 0% auto;
+}
+
 .text-center {
     text-align: center;
 }
@@ -185,8 +193,24 @@
     bottom: 5px;
 }
 
+.ml-20 {
+    margin-left: 20px;
+}
+
+.text-boldGray {
+    color: rgb(90, 89, 89);
+}
+
+.bg-lightGray {
+    background-color: rgb(238, 237, 237);
+}
+
 .mr-10 {
     margin: 10px;
+}
+
+.w-45 {
+    width: 45%;
 }
 
 .ptl-5 {
@@ -197,6 +221,10 @@
 .ptl-10 {
     position: relative;
     top: 10px;
+}
+
+.fw-7 {
+    font-weight: 700;
 }
 
 .f-30 {
