@@ -12,11 +12,11 @@ const PublishFeed = () => {
   return (
     <section className="p-10 bg-white br-5">
       <div>
-        <h1 className="condensed text-cornBlue">Publish Your Story</h1>
+        <h1 className="condensed text-cornBlue">Publish Your Feed</h1>
         <div className="d-flex align-center justify-evenly">
           <img className="roundImage" src={profileImage} />
           <textarea
-            placeholder="Write Your Story..."
+            placeholder="Write Your Feed..."
             className="textArea condensed br-none p-10 f-20"
           ></textarea>
         </div>

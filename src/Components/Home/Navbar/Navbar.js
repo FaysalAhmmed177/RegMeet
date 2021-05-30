@@ -20,24 +20,28 @@ const Navbar = () => {
           <FontAwesomeIcon
             className="shadow-5 navOptions bg-cornBlue text-white p-5 br-5"
             icon={faHome}
+            title="Home"
           />
         </Link>
         <Link to="/friends">
           <FontAwesomeIcon
             className="shadow-5 navOptions bg-cornBlue text-white p-5 br-5"
             icon={faUsers}
+            title="Friends"
           />
         </Link>
         <Link to="/notifications">
           <FontAwesomeIcon
             className="shadow-5 navOptions bg-cornBlue text-white p-5 br-5"
             icon={faBell}
+            title="Notifications"
           />
         </Link>
         <Link to="/messages">
           <FontAwesomeIcon
             className="shadow-5 navOptions bg-cornBlue text-white p-5 br-5"
             icon={faEnvelope}
+            title="Messages"
           />
         </Link>
       </div>

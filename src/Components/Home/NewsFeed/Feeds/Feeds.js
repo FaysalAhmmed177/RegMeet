@@ -17,7 +17,7 @@ const Feeds = () => {
           <div className="d-flex align-center">
             <img className="roundImage w-10" src={feed.userImg} />
             <div className="ml-20 w-80">
-              <p className="fw-7 condensed ptl-5">{feed.userName}</p>
+              <p className="fw-7 condensed ptl-5 pointer">{feed.userName}</p>
               <p className="text-gray f-15 pbl-10">{feed.postedDate}</p>
             </div>
             <FontAwesomeIcon
@@ -38,7 +38,7 @@ const Feeds = () => {
             </div>
             <div className="align-center d-flex w-30 justify-evenly">
               <FontAwesomeIcon
-                className="pointer text-cornBlue f-20"
+                className="pointer text-cornBlue f-20 text-shadow"
                 icon={faHeart}
               />
               <FontAwesomeIcon className="pointer f-20" icon={faShareAlt} />
@@ -48,7 +48,7 @@ const Feeds = () => {
         </div>
       ))}
       <div className="d-flex justify-center align-center mt-10">
-        <button className="p-10 f-20 br-none shadow-5 text-cornBlue br-5">
+        <button className="p-10 f-20 br-none shadow-5 text-cornBlue br-5 pointer">
           Load More
         </button>
       </div>
